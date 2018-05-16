@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/center/center",
+    "pages/address/repairOrder/repairOrder",
+    "pages/address/chooseAddre/chooseAddre",
+    "pages/address/modifyAddre/modifyAddre",
+    "pages/address/newAddre/newAddre",
+    "pages/order/order",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "十月妈咪报修系统",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"images/index-B.png",
+        "selectedIconPath":"images/index-A.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "images/order-B.png",
+        "selectedIconPath": "images/order-A.png",
+        "text": "订单管理"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "images/center-B.png",
+        "selectedIconPath": "images/center-A.png",
+        "text": "个人中心"
+      },
+      {
+        "pagePath": "pages/address/chooseAddre/chooseAddre",
+        "iconPath": "images/logs-B.png",
+        "selectedIconPath": "images/logs-A.png",
+        "text": "地址管理"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

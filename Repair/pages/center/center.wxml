@@ -1,0 +1,15 @@
+<!--pages/center/center.wxml-->
+<navigator url="../../pages/address/chooseAddre/chooseAddre?title=chooseAddre" open-type="redirect" hover-class="other-navigator-hover">地址管理</navigator>
+
+
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取个人信息 </button>
+    <block wx:else>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

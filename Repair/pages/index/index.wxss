@@ -1,0 +1,12 @@
+/**index.wxss**/
+input{
+  width: 200px;
+  height: 10px;
+  border:1px solid #97CBFF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.loginbtn{
+  margin-top: 20px;
+  background-color: #97CBFF
+}
