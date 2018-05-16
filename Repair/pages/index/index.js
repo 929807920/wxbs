@@ -35,7 +35,7 @@ login:function(){
         'content-type': 'application/json' // 默认值
       },
       success: function (res) {
-        console.log("=========="+res.data);
+        console.log("==========="+res.data);
         that.setData({
           id_token: res.data.id_token,
           response: res
